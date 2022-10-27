@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Logo from '../imagens/logo.svg';
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +8,7 @@ export default function Header() {
     return (
        <div>
         <header>
-            <img src="logo.svg" alt="" />
+        <img src={ Logo } />
             <nav>
                 <ul>
                     <Link to="/">00 Home</Link>
