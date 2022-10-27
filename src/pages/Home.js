@@ -1,12 +1,15 @@
 import React from 'react';
-
-import './Home.modules.css';
-
 import Header from '../Components/Header';
+import background from "../imagens/background-home-desktop.jpg";
 
 export default function Home() {
   return (
-    <div>
+      <div style={{ backgroundImage: `url(${background})`,
+        position: 'relative',
+        height: '100vh',
+        width: '100vw',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat' } }>
         <Header />
       <body>
         <main>
@@ -24,6 +27,7 @@ export default function Home() {
           <h2>Explorer</h2>
         </aside>
       </body>
-    </div>
+      </div>
+        
   )
 }
