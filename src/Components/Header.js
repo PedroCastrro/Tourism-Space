@@ -2,14 +2,14 @@ import React from 'react';
 import { Component } from 'react';
 import Logo from '../imagens/logo.svg';
 import { Link } from 'react-router-dom';
-import { Cabeça, Ul} from '../Styles/Styles';
+import { Cabeça, Ul, Img4} from '../Styles/Styles';
 
 
 export default function Header() {
     return (
        <div>
         <Cabeça>
-        <img src={ Logo } />
+            <Img4 src={ Logo } />
             <nav>
                 <Ul>
                     <Link to="/">00 Home</Link>
