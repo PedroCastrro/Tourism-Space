@@ -3,7 +3,7 @@
 
 Tourism Space é uma aplicação Front-end web construída durante a Semana CTD , evento organizado pela [Comunidade Code - Pedro Marins].
 
-A aplicação consiste em uma lading page de informaçoes sobre viajem espacial.
+A aplicação consiste em uma lading page de informaçoes sobre turismo  espacial da agencia espacial da nasa.
 
 ## Layout web
 ![Web 1](https://github.com/PedroCastrro/Tourism-Space/blob/main/Home-lading.png)
