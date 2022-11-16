@@ -33,8 +33,7 @@ git clone https://github.com/PedroCastrro/Tourism-Space
 # entrar na pasta do projeto front end web
 cd front-web
 
-# instalar dependências
-yarn install
+
 
 # executar o projeto
 npm start
